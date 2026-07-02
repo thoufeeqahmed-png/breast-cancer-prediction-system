@@ -1,5 +1,6 @@
-streamlit
-scikit-learn
-numpy
-pandas
-joblib
+breast-cancer-prediction-system/
+│── app.py
+│── breast_cancer_model.pkl
+│── requirements.txt
+│── runtime.txt
+│── README.md
