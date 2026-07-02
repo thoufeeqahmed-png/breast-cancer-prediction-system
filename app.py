@@ -2,9 +2,11 @@ import streamlit as st
 import joblib
 import numpy as np
 
-# Load the trained model
-model = joblib.load("breast_cancer_model.pkl")
+@st.cache_resource
+def load_model():
+    return joblib.load("breast_cancer_model.pkl")
 
+model = load_model()
 st.set_page_config(page_title="Breast Cancer Prediction", page_icon="🩺")
 
 st.title("🩺 Breast Cancer Prediction System")
