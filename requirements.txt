@@ -4,3 +4,4 @@ breast-cancer-prediction-system/
 │── requirements.txt
 │── runtime.txt
 │── README.md
+| joblib
