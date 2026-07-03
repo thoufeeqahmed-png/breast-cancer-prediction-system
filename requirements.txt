@@ -1,7 +1,7 @@
-breast-cancer-prediction-system/
-│── app.py
-│── breast_cancer_model.pkl
-│── requirements.txt
-│── runtime.txt
-│── README.md
-| joblib
+streamlit
+numpy
+pandas
+scikit-learn
+joblib
+matplotlib
+seaborn
